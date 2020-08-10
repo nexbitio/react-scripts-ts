@@ -1,12 +1,13 @@
-## ![react-scripts-ts](template/src/assets/react-ts.png) width="640" height="280" />
+## ![react-scripts-ts](template/src/assets/react-ts.png)
+
 
 ![License](https://img.shields.io/github/license/nexbitio/react-scripts-ts.svg)
 [![NPM](https://img.shields.io/npm/v/@nexbit.io/react-scripts-ts.svg)](https://www.npmjs.com/package/@nexbit.io/react-scripts-ts)
-[![CircleCI Status](https://circleci.com/gh/nexbitio/react-scripts-ts.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/nexbitio/react-scripts-ts)
+
 
 # @nexbit.io/react-scripts-ts
 
-Modern build setup with no configuration for React + TypeScript projects.
+Modern build setup with no configuration for <b> [ React + TypeScript ] </b>projects.
 
 ### Main differences with create react app:
 
@@ -17,11 +18,12 @@ Modern build setup with no configuration for React + TypeScript projects.
 - Transpilation using [ts-loader](https://github.com/TypeStrong/ts-loader)
 - Provide compile-time information for styled components [typescript-plugin-styled-components](https://github.com/Igorbek/typescript-plugin-styled-components)
 
-Found any problem or bug? Please [create a new issue](https://github.com/nexbitio/react-scripts-ts/issues).
+## Found any problem or bug? Please [create a new issue](https://github.com/nexbitio/react-scripts-ts/issues) || mailto : developer@nexbit.io
 
 ## Features
-
 - Webpack 4
+- up-to-date TypeScript
+- Zero config optimize build
 - TypeScript compilation [ts-loader](https://github.com/TypeStrong/ts-loader)
 - Type and tslint errors on a separate process [fork-ts-checker-webpack-plugin](https://github.com/Realytics/fork-ts-checker-webpack-plugin)
 - Sass, Less and Css Modules [css-modules](https://github.com/css-modules/css-modules)
@@ -29,7 +31,8 @@ Found any problem or bug? Please [create a new issue](https://github.com/nexbiti
 - Tranform SVG into React components [svgr](https://github.com/smooth-code/svgr)
 - Use `.js|.jsx` and `.ts|.tsx` files together.
 
-Check out the [template files](template) for usage examples.
+
+## Check out the [template files](template) for usage examples.
 
 # Getting started
 
@@ -78,4 +81,8 @@ Ejecting is not supported in this project, you have 2 options:
     "test": "react-app-rewired test --scripts-version @nexbit.io/react-scripts-ts --env=jsdom"
   }
 }
+```
+
+```bash
+                                                 2018-2020 | NEXBIT.IO Ltd.
 ```
