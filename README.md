@@ -1,4 +1,5 @@
-## ![react-scripts-ts](template/src/assets/react-ts.png) width="640" height="280" />
+## ![react-scripts-ts](template/src/assets/react-ts.png)
+
 
 ![License](https://img.shields.io/github/license/nexbitio/react-scripts-ts.svg)
 [![NPM](https://img.shields.io/npm/v/@nexbit.io/react-scripts-ts.svg)](https://www.npmjs.com/package/@nexbit.io/react-scripts-ts)
@@ -6,7 +7,7 @@
 
 # @nexbit.io/react-scripts-ts
 
-Modern build setup with no configuration for React + TypeScript projects.
+Modern build setup with no configuration for <b> [ React + TypeScript ] </b>projects.
 
 ### Main differences with create react app:
 
@@ -78,4 +79,8 @@ Ejecting is not supported in this project, you have 2 options:
     "test": "react-app-rewired test --scripts-version @nexbit.io/react-scripts-ts --env=jsdom"
   }
 }
+```
+
+```bash
+                      NEXBIT.IO Ltd.
 ```
