@@ -1,4 +1,4 @@
-## ![react-scripts-ts](template/src/logo.svg)&nbsp;&nbsp;&nbsp;<span>+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/remojansen/logo.ts/raw/master/ts.png"  width="70" height="70" />
+## ![react-scripts-ts](template/src/assets/react-ts.png) width="640" height="280" />
 
 ![License](https://img.shields.io/github/license/nexbitio/react-scripts-ts.svg)
 [![NPM](https://img.shields.io/npm/v/@nexbit.io/react-scripts-ts.svg)](https://www.npmjs.com/package/@nexbit.io/react-scripts-ts)

@@ -7,7 +7,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* revert to eval-source-map https://github.com/facebook/create-react-app/pull/6444 ([043b9c2](https://github.com/jpavon/react-scripts-ts/commit/043b9c2))
 * update all modules
 * upgrade build process
 * use typescript 3.9.7
