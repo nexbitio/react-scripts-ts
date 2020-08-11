@@ -3,6 +3,7 @@
 
 ![License](https://img.shields.io/github/license/nexbitio/react-scripts-ts.svg)
 [![NPM](https://img.shields.io/npm/v/@nexbit.io/react-scripts-ts.svg)](https://www.npmjs.com/package/@nexbit.io/react-scripts-ts)
+[![CircleCI Status](https://circleci.com/gh/nexbitio/react-scripts-ts.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/nexbitio/react-scripts-ts)
 
 
 # @nexbit.io/react-scripts-ts
