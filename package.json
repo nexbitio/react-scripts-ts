@@ -2,9 +2,10 @@
   "name": "@nexbit.io/react-scripts-ts",
   "version": "5.0.1",
   "description": "Fork from react-scripts-ts much upgraded, more advance",
-  "repository": "nexbitio/react-scripts-ts",
+  "repository": "https://github.com/nexbitio/react-scripts-ts",
   "author": "NEXBIT.IO",
   "license": "MIT",
+  "private": false,
   "engines": {
     "node": ">=6"
   },
@@ -12,10 +13,10 @@
     "url": "https://github.com/nexbitio/react-scripts-ts/issues"
   },
   "scripts": {
-    "rename": "renamer --find '/(\\-)(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)/' --replace '' './*.tgz'",
-    "pack": "npm pack",
-    "pack:rename": "npm-run-all --sequential pack rename",
-    "release": "standard-version"
+   "rename": "renamer --find '/(\\-)(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)/' --replace '' './*.tgz'",
+   "pack": "npm pack",
+   "pack:rename": "npm-run-all --sequential pack rename",
+   "release": "standard-version"
   },
   "files": [
     "bin",
