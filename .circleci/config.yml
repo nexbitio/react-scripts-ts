@@ -19,14 +19,10 @@ jobs:
       - checkout
       - run: yarn
       - run: yarn pack:rename
-      - run: E2E_TEST='true' npx create-react-app ~/kitchensink/test-kitchensink --scripts-version=/home/circleci/kitchensink/nexbit.io-react-scripts-ts.tgz --internal-testing-template=/home/circleci/kitchensink/fixtures/kitchensink
-      - run: cd ~/kitchensink/test-kitchensink && yarn test --maxWorkers=2 --passWithNoTests
-      - run: cd ~/kitchensink/test-kitchensink && yarn e2e:dev
-      - run: cd ~/kitchensink/test-kitchensink && yarn e2e:build
-
+      
 workflows:
   version: 2
   tests:
     jobs:
       - test-template
-      - test-kitchensink
+    
