@@ -6,7 +6,7 @@
 [![CircleCI Status](https://circleci.com/gh/nexbitio/react-scripts-ts.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/nexbitio/react-scripts-ts)
 
 
-# @nexbit.io/react-scripts-ts
+# @nexbitio/react-scripts-ts
 
 Modern build setup with no configuration for <b> [ React + TypeScript ] </b>projects.
 
