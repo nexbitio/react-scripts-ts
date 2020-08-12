@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/nexbitio/react-scripts-ts/issues"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
    "rename": "renamer --find '/(\\-)(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)/' --replace '' './*.tgz'",
    "pack": "npm pack",
