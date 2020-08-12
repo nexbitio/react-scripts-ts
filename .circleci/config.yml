@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run: yarn
       - run: yarn pack:rename
-      - run: npx create-react-app ~/template/test-template --scripts-version=/home/circleci/template/nexbit.io-react-scripts-ts.tgz
+      - run: npx create-react-app ~/template/test-template --scripts-version=/home/circleci/template/nexbitio-react-scripts-ts.tgz
       - run: cd ~/template/test-template && yarn test --passWithNoTests
 
   test-kitchensink:
